@@ -33,6 +33,23 @@ Inference (update IP address of host in script first)
 vi inspectAI/deploy/simple_request.py
 python inspectAI/deploy/simple_request.py
 ```
+## Experiment
+Experiment folder contains these jupyter notebooks used for experiments and data pre-processing
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+MultiLabel_newmm.ipynb ----> try out custom CNN and pre-trained CNN, tune threshold for recall-precision optimization
+
+MultiLabel_CelebFaces.ipynb ----> test out the idea with CelebFacesAttributes dataset (multi-class, multi-label)
+
+CropImage_GenerateLabel.ipynb ----> crop the center of images, clean the label file from LabelBox
+
+crop_mm_cv2.ipynb ----> crop the images again around M&M
+
+binary_mm.ipynb ----> reduce the problem to binary classification to see if accuracy improves
+
+human_level_performance.ipynb ----> find human level accuracy, label same test set twice
+
+AutoKeras_mm.ipynb ----> Try AutoKeras binary classification
+
+autokeras_encode.ipynb ----> Relabel the dataset for AutoKeras multi-calss classification
+
+
