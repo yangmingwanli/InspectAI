@@ -72,3 +72,7 @@ Experiment folder contains these jupyter notebooks used for experiments and data
 
 8. autokeras_encode.ipynb 
     - Relabel the dataset for AutoKeras multi-calss classification
+
+## Project Overview
+
+[Link on Youtube](https://www.youtube.com/watch?v=QpYNQia9pW4)
